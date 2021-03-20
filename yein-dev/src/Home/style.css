@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  .ef {
+    margin-bottom: .4em;
+  }
+  
+  .ef .ef1 {
+    font-family: 'SDSamliphopangche_Outline'!important;
+    position: relative;
+    margin-right: 8px;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .4s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    font-size: 1em;
+    color: #090078;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0, 0, 0, .4);
+  }
+  
+  .ef .ef1:nth-child(2) { animation-delay: .1s; }
+  .ef .ef1:nth-child(3) { animation-delay: .2s; }
+  .ef .ef1:nth-child(4) { animation-delay: .3s; }
+  .ef .ef1:nth-child(5) { animation-delay: .4s; }
+  .ef .ef1:nth-child(6) { animation-delay: .5s; }
+  .ef .ef1:nth-child(7) { animation-delay: .6s; }
+  .ef .ef1:nth-child(8) { animation-delay: .7s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+  }
