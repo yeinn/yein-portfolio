@@ -27,6 +27,7 @@ import {
   Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
+import Main from './Main';
 
 let isMobile;
 enquireScreen((b) => {
@@ -70,12 +71,13 @@ export default class Home extends React.Component {
         dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner0
-        id="Banner0_0"
-        key="Banner0_0"
-        dataSource={Banner00DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      <Main/>,
+      // <Banner0
+      //   id="Banner0_0"
+      //   key="Banner0_0"
+      //   dataSource={Banner00DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Teams0
         id="Teams0_0"
         key="Teams0_0"
