@@ -1,18 +1,18 @@
 /* eslint no-undef: 0 */
 /* eslint arrow-parens: 0 */
-import React from 'react';
-import { enquireScreen } from 'enquire-js';
+import React from "react";
+import { enquireScreen } from "enquire-js";
 
-import Nav0 from './Nav0';
-import Banner0 from './Banner0';
-import Teams0 from './Teams0';
-import Feature0 from './Feature0';
-import Feature1 from './Feature1';
-import Content12 from './Content12';
-import Content9 from './Content9';
-import Content5 from './Content5';
-import Contact0 from './Contact0';
-import Footer0 from './Footer0';
+import Nav0 from "./Nav0";
+import Banner0 from "./Banner0";
+import Teams0 from "./Teams0";
+import Feature0 from "./Feature0";
+import Feature1 from "./Feature1";
+import Content12 from "./Content12";
+import Content9 from "./Content9";
+import Content5 from "./Content5";
+import Contact0 from "./Contact0";
+import Footer0 from "./Footer0";
 
 import {
   Nav00DataSource,
@@ -25,16 +25,17 @@ import {
   Content50DataSource,
   Contact00DataSource,
   Footer00DataSource,
-} from './data.source';
-import './less/antMotionStyle.less';
-import Main from './Main';
+} from "./data.source";
+import "./less/antMotionStyle.less";
+import Main from "./Main";
+import Header from "./Header";
 
 let isMobile;
 enquireScreen((b) => {
   isMobile = b;
 });
 
-const { location = {} } = typeof window !== 'undefined' ? window : {};
+const { location = {} } = typeof window !== "undefined" ? window : {};
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -65,13 +66,14 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav0
-        id="Nav0_0"
-        key="Nav0_0"
-        dataSource={Nav00DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Main/>,
+      // <Nav0
+      //   id="Nav0_0"
+      //   key="Nav0_0"
+      //   dataSource={Nav00DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      <Header />,
+      <Main />,
       // <Banner0
       //   id="Banner0_0"
       //   key="Banner0_0"
