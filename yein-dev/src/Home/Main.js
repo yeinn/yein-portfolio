@@ -1,5 +1,5 @@
 import React from "react";
-import "./test1.css";
+import "./Main.css";
 const Main = () => {
   return (
     <>
@@ -11,13 +11,31 @@ const Main = () => {
               <div id="master-container-scroller">
                 <div class="master-container-scroller_item">
                   <a class="cta-link" href="#">
+                    Developer
+                  </a>
+                  .
+                </div>
+                <div class="master-container-scroller_item">
+                  <a class="cta-link" href="#">
                     Web Developer
                   </a>
                   .
                 </div>
                 <div class="master-container-scroller_item">
                   <a class="cta-link" href="#">
-                    UIUX Designer
+                    Front-End Developer
+                  </a>
+                  .
+                </div>
+                <div class="master-container-scroller_item">
+                  <a class="cta-link" href="#">
+                    Designer
+                  </a>
+                  .
+                </div>
+                <div class="master-container-scroller_item">
+                  <a class="cta-link" href="#">
+                    UI/UX Designer
                   </a>
                   .
                 </div>
@@ -29,43 +47,25 @@ const Main = () => {
                 </div>
                 <div class="master-container-scroller_item">
                   <a class="cta-link" href="#">
-                    Mom
+                    UX Engineer
                   </a>
                   .
                 </div>
                 <div class="master-container-scroller_item">
                   <a class="cta-link" href="#">
-                    Dad
+                    Project Manager
                   </a>
                   .
                 </div>
                 <div class="master-container-scroller_item">
                   <a class="cta-link" href="#">
-                    Brother
-                  </a>
-                  .
-                </div>
-                <div class="master-container-scroller_item">
-                  <a class="cta-link" href="#">
-                    Sister
-                  </a>
-                  .
-                </div>
-                <div class="master-container-scroller_item">
-                  <a class="cta-link" href="#">
-                    Son
-                  </a>
-                  .
-                </div>
-                <div class="master-container-scroller_item">
-                  <a class="cta-link" href="#">
-                    Daughter
+                    Data Analyst
                   </a>
                   .
                 </div>
                 <div class="master-container-scroller_item">Friend.</div>
               </div>
-              <div> Nice to see you.</div>
+              <div> Nice to see you :)</div>
             </h1>
           </div>
         </div>

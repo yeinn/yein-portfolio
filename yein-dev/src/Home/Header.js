@@ -4,7 +4,7 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <div className="custom-nav">
+      <header className="custom-nav">
         <nav class="menu">
           <ol>
             <li class="menu-item">
@@ -13,41 +13,19 @@ class Header extends Component {
               </a>
             </li>
             <li class="menu-item">
-              <a href="#0" className="nav-btn">
+              <a href="#about" className="nav-btn">
                 About
               </a>
             </li>
             <li class="menu-item">
               <a href="#0" className="nav-btn">
-                Work
+                Career
               </a>
-              <ol class="sub-menu">
-                <li class="menu-item">
-                  <a href="#0">Big Widgets</a>
-                </li>
-                <li class="menu-item">
-                  <a href="#0">Bigger Widgets</a>
-                </li>
-                <li class="menu-item">
-                  <a href="#0">Huge Widgets</a>
-                </li>
-              </ol>
             </li>
             <li class="menu-item">
               <a href="#0" className="nav-btn">
-                Kabobs
+                Works
               </a>
-              <ol class="sub-menu">
-                <li class="menu-item">
-                  <a href="#0">Shishkabobs</a>
-                </li>
-                <li class="menu-item">
-                  <a href="#0">BBQ kabobs</a>
-                </li>
-                <li class="menu-item">
-                  <a href="#0">Summer kabobs</a>
-                </li>
-              </ol>
             </li>
             <li class="menu-item">
               <a href="#0" className="nav-btn">
@@ -56,7 +34,7 @@ class Header extends Component {
             </li>
           </ol>
         </nav>
-      </div>
+      </header>
     );
   }
 }
