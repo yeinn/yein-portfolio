@@ -66,12 +66,6 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      // <Nav0
-      //   id="Nav0_0"
-      //   key="Nav0_0"
-      //   dataSource={Nav00DataSource}
-      //   isMobile={this.state.isMobile}
-      // />,
       <Header />,
       <Main />,
       // <Banner0
@@ -86,18 +80,19 @@ export default class Home extends React.Component {
         dataSource={Teams00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature0
-        id="Feature0_0"
-        key="Feature0_0"
-        dataSource={Feature00DataSource}
-        isMobile={this.state.isMobile}
-      />,
       <Feature1
         id="Feature1_0"
         key="Feature1_0"
         dataSource={Feature10DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Feature0
+        id="Feature0_0"
+        key="Feature0_0"
+        dataSource={Feature00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+
       <Content12
         id="Content12_0"
         key="Content12_0"
