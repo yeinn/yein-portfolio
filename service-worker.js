@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/yein-portfolio/precache-manifest.8ebc9ad2fc46b274da109f81240b9810.js"
+  "/yein-portfolio/precache-manifest.fda8ca11859df476f2f4aef5a44c4a70.js"
 );
 
 workbox.clientsClaim();

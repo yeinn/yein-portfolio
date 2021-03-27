@@ -1,15 +1,19 @@
 {
-  "main.css": "/yein-portfolio/static/css/main.981592e8.chunk.css",
-  "main.js": "/yein-portfolio/static/js/main.0bc2ed56.chunk.js",
-  "main.js.map": "/yein-portfolio/static/js/main.0bc2ed56.chunk.js.map",
+  "main.css": "/yein-portfolio/static/css/main.be0b57f4.chunk.css",
+  "main.js": "/yein-portfolio/static/js/main.cd461404.chunk.js",
+  "main.js.map": "/yein-portfolio/static/js/main.cd461404.chunk.js.map",
   "runtime~main.js": "/yein-portfolio/static/js/runtime~main.477f0833.js",
   "runtime~main.js.map": "/yein-portfolio/static/js/runtime~main.477f0833.js.map",
-  "static/css/2.6af5cd7c.chunk.css": "/yein-portfolio/static/css/2.6af5cd7c.chunk.css",
-  "static/js/2.56130136.chunk.js": "/yein-portfolio/static/js/2.56130136.chunk.js",
-  "static/js/2.56130136.chunk.js.map": "/yein-portfolio/static/js/2.56130136.chunk.js.map",
+  "static/css/2.6b08ea2c.chunk.css": "/yein-portfolio/static/css/2.6b08ea2c.chunk.css",
+  "static/js/2.771c4e18.chunk.js": "/yein-portfolio/static/js/2.771c4e18.chunk.js",
+  "static/js/2.771c4e18.chunk.js.map": "/yein-portfolio/static/js/2.771c4e18.chunk.js.map",
   "index.html": "/yein-portfolio/index.html",
-  "precache-manifest.8ebc9ad2fc46b274da109f81240b9810.js": "/yein-portfolio/precache-manifest.8ebc9ad2fc46b274da109f81240b9810.js",
+  "precache-manifest.fda8ca11859df476f2f4aef5a44c4a70.js": "/yein-portfolio/precache-manifest.fda8ca11859df476f2f4aef5a44c4a70.js",
   "service-worker.js": "/yein-portfolio/service-worker.js",
-  "static/css/2.6af5cd7c.chunk.css.map": "/yein-portfolio/static/css/2.6af5cd7c.chunk.css.map",
-  "static/css/main.981592e8.chunk.css.map": "/yein-portfolio/static/css/main.981592e8.chunk.css.map"
+  "static/css/2.6b08ea2c.chunk.css.map": "/yein-portfolio/static/css/2.6b08ea2c.chunk.css.map",
+  "static/css/main.be0b57f4.chunk.css.map": "/yein-portfolio/static/css/main.be0b57f4.chunk.css.map",
+  "static/media/bulb.svg": "/yein-portfolio/static/media/bulb.d20df1b4.svg",
+  "static/media/design.svg": "/yein-portfolio/static/media/design.8e09186d.svg",
+  "static/media/skill.svg": "/yein-portfolio/static/media/skill.84ff6617.svg",
+  "static/media/web.svg": "/yein-portfolio/static/media/web.e58c8deb.svg"
 }
