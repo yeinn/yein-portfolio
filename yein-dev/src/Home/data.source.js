@@ -1,4 +1,8 @@
 import React from "react";
+import bulb from "./image/bulb.svg";
+import web from "./image/web.svg";
+import design from "./image/design.svg";
+
 export const Nav00DataSource = {
   wrapper: { className: "header0 home-page-wrapper" },
   page: { className: "home-page" },
@@ -245,13 +249,13 @@ export const Teams00DataSource = {
             {
               name: "image",
               children:
-                "https://octocat-generator-assets.githubusercontent.com/my-octocat-1616226412080.png",
+                "https://blog.kakaocdn.net/dn/w5N0T/btq090e7xOd/7sApjAKk7jTkBeH0ZPkGbK/tfile.svg",
               className: "teams0-image",
             },
             {
               name: "content major",
               children: "Visual Design & Computer Engineering Major",
-              className: "teams0-content",
+              className: "teams0-content font-xs",
             },
             {
               name: "title yellow underline",
@@ -261,8 +265,8 @@ export const Teams00DataSource = {
             {
               name: "content2",
               children:
-                "사용자의 좋은 경험을 위한 방법을 고민하고 구현하는 개발자 입니다.",
-              className: "teams0-content",
+                "비즈니스의 가치를 향상시키기 위한 디자인과 시스템을 만드는 개발자",
+              className: "teams0-content black",
             },
           ],
         },
@@ -276,7 +280,7 @@ export const Feature00DataSource = {
   OverPack: { playScale: 0.3, className: "" },
   titleWrapper: {
     className: "title-wrapper",
-    children: [{ name: "title", children: "Features" }],
+    children: [{ name: "title", children: <b>📌Features</b> }],
   },
   childWrapper: {
     className: "content0-block-wrapper",
@@ -292,17 +296,16 @@ export const Feature00DataSource = {
             {
               name: "image",
               className: "content0-block-icon",
-              children:
-                "https://blog.kakaocdn.net/dn/c3URPM/btq0AqSF6s4/DKarM1gkl6svzNbJgEb1I0/img.jpg",
+              children: <img src={bulb} alt="plan"></img>,
             },
             {
               name: "title",
-              className: "content0-block-title",
+              className: "content0-block-title pink",
               children: "#기획",
             },
             {
               name: "content",
-              children: "세상을 바꿀 수 있는 비즈니스를 생각합니다.",
+              children: "세상을 바꿀 수 있는 비즈니스",
             },
           ],
         },
@@ -318,17 +321,16 @@ export const Feature00DataSource = {
             {
               name: "image",
               className: "content0-block-icon",
-              children:
-                "https://blog.kakaocdn.net/dn/N3dLo/btq0AqrCRZq/uGkmMS7aGWHSOHdfSVKN60/img.png",
+              children: <img src={web} alt="plan"></img>,
             },
             {
               name: "title",
-              className: "content0-block-title",
+              className: "content0-block-title blue",
               children: "#개발",
             },
             {
               name: "content",
-              children: "읽기 쉬운 클린한 코드 작성을 지향합니다.",
+              children: "재사용성이 높은 클린한 코드",
             },
           ],
         },
@@ -344,17 +346,16 @@ export const Feature00DataSource = {
             {
               name: "image",
               className: "content0-block-icon",
-              children:
-                "https://blog.kakaocdn.net/dn/N3dLo/btq0AqrCRZq/uGkmMS7aGWHSOHdfSVKN60/img.png",
+              children: <img src={design} alt="plan"></img>,
             },
             {
               name: "title",
-              className: "content0-block-title",
+              className: "content0-block-title yellow",
               children: "#디자인",
             },
             {
               name: "content",
-              children: "눈에 보이는 모든 것을 더 보기 좋게 만듭니다.",
+              children: "새로운 것의 익숙하고 편안한 경험",
             },
           ],
         },
@@ -368,23 +369,26 @@ export const Feature10DataSource = {
   imgWrapper: { className: "content1-img", md: 10, xs: 24 },
   img: {
     children:
-      "https://blog.kakaocdn.net/dn/bH2KSP/btq0y0tTXPp/wiKaQwMo6No7qRMHURPKa1/img.jpg",
+      "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQogz3%2Fbtq1asoWKXQ%2FECr8rtqgmUfIfmvsBP8kdK%2Ftfile.svg",
   },
   textWrapper: { className: "content1-text", md: 14, xs: 24 },
-  title: { className: "content1-title", children: "그림쟁이 개발자" },
+  title: { className: "content1-title", children: "디자인하는 개발자" },
   content: {
     className: "content1-content",
     children: (
       <div>
         <p>
-          디자인과 개발 두 가지를 공부하였기 때문에 사용자 입장, 개발자의 입장
-          두 관점에서 생각할 수 있는 능력을 기를 수 있었습니다. 이는 문제해결
-          방법을 생각할 때에 남들보다 여러 요소를 고려하는 데에 크게 도움이
-          되었습니다.
+          <b> 디자인과 개발</b> 두 가지를 공부하였기 때문에{" "}
+          <b>
+            사용자 입장, 개발자의 입장 두 관점을 고려하여 UIUX를 설계하는 능력
+          </b>
+          을 기를 수 있었습니다. 이는 문제해결 방법을 생각할 때에 남들보다 여러
+          요소를 고려하는 데에 크게 도움이 되었습니다.
         </p>
         <p>
-          특히 단순히 디자인, 개발을 할 수 있는 것을 넘어 디자인과 개발의 유기적
-          연계를 통해 사용자의 입장에서의 사용성을 반영하는 개발자로 성장할 수
+          이러한 융합능력은 단순히 화면을 디자인하고 기능을 개발하는 영역을 넘어{" "}
+          <b>디자인과 개발의 유기적 연계</b>를 통해 사용자의 입장에서의{" "}
+          <b>사용성을 향상시키는 방법을 고민하는 개발자</b>로 성장할 수
           있었습니다.
         </p>
       </div>

@@ -1,8 +1,8 @@
-import React from 'react';
-import QueueAnim from 'rc-queue-anim';
-import { Row, Col } from 'antd';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { getChildrenToRender } from './utils';
+import React from "react";
+import QueueAnim from "rc-queue-anim";
+import { Row, Col } from "antd";
+import OverPack from "rc-scroll-anim/lib/ScrollOverPack";
+import { getChildrenToRender } from "./utils";
 
 class Content extends React.PureComponent {
   render() {
@@ -17,9 +17,9 @@ class Content extends React.PureComponent {
     return (
       <div {...props} {...wrapper}>
         <div {...page}>
-          <div {...titleWrapper}>
+          {/* <div {...titleWrapper}>
             {titleWrapper.children.map(getChildrenToRender)}
-          </div>
+          </div> */}
           <OverPack {...overPackData}>
             <QueueAnim
               type="bottom"

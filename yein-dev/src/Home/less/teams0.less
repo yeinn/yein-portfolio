@@ -14,9 +14,15 @@
 }
 @teams0: teams0;
 
+.black {
+  color: #404040 !important;
+}
+.font-xs {
+  font-size: 13px !important;
+}
 .@{teams0}-wrapper {
   font-family: "NEXON Lv1 Gothic OTF";
-  height: 330px;
+  height: 300px;
   .@{teams0} {
     padding: 0px 24px;
     display: flex;
@@ -60,8 +66,8 @@
       }
     }
     &-content {
-      font-size: 18px;
-      color: #919191;
+      font-size: 16px;
+      color: #b3b3b3;
       text-align: center;
       width: 80%;
       margin: 8px auto;
@@ -71,10 +77,10 @@
     }
     &-h1 {
       font-family: "NEXON Lv1 Gothic OTF Bold";
-      font-size: 42px;
+      font-size: 1.8rem;
       text-align: center;
       width: 80%;
-      margin: 24px auto 0;
+      margin: 10px auto 0;
 
       &:hover {
         cursor: pointer;
@@ -95,7 +101,7 @@
 
 @media screen and (max-width: 767px) {
   .@{teams0}-wrapper {
-    min-height: 480px;
+    min-height: 400px;
 
     .@{teams0} {
       display: block;
