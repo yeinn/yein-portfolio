@@ -2,6 +2,7 @@ import React from "react";
 import bulb from "./image/bulb.svg";
 import web from "./image/web.svg";
 import design from "./image/design.svg";
+import skill from "./image/skill.svg";
 
 export const Nav00DataSource = {
   wrapper: { className: "header0 home-page-wrapper" },
@@ -432,6 +433,7 @@ export const Content120DataSource = {
           img: {
             children:
               "https://blog.kakaocdn.net/dn/mN353/btq0zvNJf6V/qMSbeUen2gvVuMJj7n8EqK/tfile.svg",
+            // "https://blog.kakaocdn.net/dn/Dsc9L/btq1e6EWuOn/Mqk2o6k5Aa5pe7pTbVRuZ0/tfile.svg"
           },
         },
       },
