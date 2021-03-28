@@ -1,11 +1,30 @@
 @content12: content12;
+
 .@{content12}-wrapper {
   background-color: #fafafa;
   min-height: 470px;
   .@{content12} {
     padding: 64px 24px;
-    >p {
+    > p {
       text-align: center;
+    }
+  }
+  .skill-title {
+    font-family: "NEXON Lv1 Gothic OTF Bold";
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem !important;
+  }
+  .ant-col-md-8 {
+    flex: auto;
+    max-width: inherit;
+  }
+  @media (max-width: 954px) {
+    .ant-col-md-8 {
+      flex: inherit;
+      margin: auto;
+      padding: 0 3rem;
+      margin: auto !important;
     }
   }
   .img-wrapper {
@@ -21,12 +40,15 @@
         position: relative;
         overflow: hidden;
         border: none;
-        height: 64px;
+        height: 100%;
         align-items: center;
-        transition: box-shadow .3s @ease-out, transform .3s @ease-out;
+        transition: box-shadow 0.3s @ease-out, transform 0.3s @ease-out;
         & > span {
           width: 100%;
           display: block;
+          img {
+            width: inherit;
+          }
         }
       }
     }

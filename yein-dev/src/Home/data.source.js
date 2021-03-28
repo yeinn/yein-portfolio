@@ -403,20 +403,20 @@ export const Content120DataSource = {
   titleWrapper: {
     className: "title-wrapper",
     children: [
-      {
-        name: "image",
-        children:
-          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
-        className: "title-image",
-      },
+      // {
+      //   name: "image",
+      //   children:
+      //     "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+      //   className: "title-image",
+      // },
       {
         name: "title",
         children: (
           <span>
-            <p>Skills</p>
+            <p>💡 Skills</p>
           </span>
         ),
-        className: "title-h1",
+        className: "skill-title title-h1",
       },
     ],
   },
@@ -432,8 +432,7 @@ export const Content120DataSource = {
           wrapper: { className: "block-content" },
           img: {
             children:
-              "https://blog.kakaocdn.net/dn/mN353/btq0zvNJf6V/qMSbeUen2gvVuMJj7n8EqK/tfile.svg",
-            // "https://blog.kakaocdn.net/dn/Dsc9L/btq1e6EWuOn/Mqk2o6k5Aa5pe7pTbVRuZ0/tfile.svg"
+              "https://blog.kakaocdn.net/dn/vcyFW/btq1cbf3myw/qHe1c32yV5Kma9bzTUbVI0/tfile.svg",
           },
         },
       },
@@ -446,59 +445,7 @@ export const Content120DataSource = {
           wrapper: { className: "block-content" },
           img: {
             children:
-              "https://blog.kakaocdn.net/dn/vabvA/btq0BDX896O/r6nIJYqFi9nD3NoQ40sGw1/tfile.svg",
-          },
-        },
-      },
-      {
-        name: "block2",
-        className: "block",
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: "block-content" },
-          img: {
-            children:
-              "https://blog.kakaocdn.net/dn/NtzIM/btq0BEvWzx7/gXMm2HwHPFJVd3H4nMvkTk/tfile.svg",
-          },
-        },
-      },
-      {
-        name: "block3",
-        className: "block",
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: "block-content" },
-          img: {
-            children:
-              "https://blog.kakaocdn.net/dn/cyCWgA/btq0EDwvyiQ/FxCDw7Rm3ZOCrLYF9MnRl1/tfile.svg",
-          },
-        },
-      },
-      {
-        name: "block4",
-        className: "block",
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: "block-content" },
-          img: {
-            children:
-              "https://blog.kakaocdn.net/dn/o3c1F/btq0zd7DL6U/1j9rOGaPcGqKm4cK4YxF10/tfile.svg",
-          },
-        },
-      },
-      {
-        name: "block5",
-        className: "block",
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: "block-content" },
-          img: {
-            children:
-              "https://blog.kakaocdn.net/dn/douVEZ/btq0BDX896B/kQIhzC7gKsuOfeoPREOcP0/tfile.svg",
+              "https://blog.kakaocdn.net/dn/OJGQV/btq1aum7iiP/6x9XtYt3zlaV4buOgdbuv0/tfile.svg",
           },
         },
       },
@@ -512,24 +459,19 @@ export const Content90DataSource = {
     className: "title-wrapper",
     children: [
       {
-        name: "image",
-        children:
-          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
-        className: "title-image",
-      },
-      {
         name: "title",
         children: (
           <span>
-            <p>History</p>
+            <p>💼 Career</p>
           </span>
         ),
-        className: "title-h1",
+        className: "title-h1 career-title",
       },
     ],
   },
   block: {
     className: "timeline",
+    id: "career",
     children: [
       {
         name: "block0",
@@ -541,7 +483,7 @@ export const Content90DataSource = {
           img: {
             className: "block-img",
             children:
-              "https://octocat-generator-assets.githubusercontent.com/my-octocat-1616226412080.png",
+              "https://m.daewoong.co.kr/resource/m/kr/image/sub/ci-symbol.jpg",
           },
           icon: {
             className: "block-icon",
@@ -550,14 +492,24 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "" },
-          time: { className: "block-time", children: "2016 - 2018" },
-          title: { className: "block-title", children: "시각디자인전공" },
+          time: { className: "block-time", children: "2021.01~" },
+          title: {
+            className: "block-title",
+            children: "대웅그룹 Ids&Trust IT 자산관리팀  인턴 근무",
+          },
           content: {
             className: "block-content",
             children: (
               <>
-                <div>2020.01 대웅그룹 idsTrust IT자산관리팀 인턴 근무</div>
-                <div>2020.02 컴퓨터정보공학 졸업 </div>
+                <div>📌 스마트 프렌즈 프로젝트 참여</div>
+                <div>
+                  📌 대웅 스마트워크 프렌즈 프로젝트 참여
+                  <br />
+                  🔗
+                  <a href="https://smartwork.daewoong.co.kr/DWSWS/main">
+                    스마트워크 프렌즈 바로가기
+                  </a>
+                </div>
               </>
             ),
           },
@@ -573,7 +525,7 @@ export const Content90DataSource = {
           img: {
             className: "block-img",
             children:
-              "https://octocat-generator-assets.githubusercontent.com/my-octocat-1616226412080.png",
+              "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99B889485BDA08240E",
           },
           icon: {
             className: "block-icon",
@@ -582,14 +534,25 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "" },
-          time: { className: "block-time", children: "2019" },
-          title: { className: "block-title", children: "스타트업 창업" },
+          time: { className: "block-time", children: "2020.06 - 2020.12" },
+          title: {
+            className: "block-title",
+            children: "안랩 연구혁신팀 인턴 근무",
+          },
           content: {
             className: "block-content",
             children: (
               <>
-                <div>2020.01 대웅그룹 idsTrust IT자산관리팀 인턴 근무</div>
-                <div>2020.02 컴퓨터정보공학 졸업 </div>
+                <div>📌 OLIVE 프로젝트 참여</div>
+                <div>📌 안랩 SW 제품 오픈소스 검증 및 보안취약점 점검</div>
+                <div>
+                  📌 제품 라이선스 파일 패키징 및 공개
+                  <br />
+                  🔗{" "}
+                  <a href="https://opensource.ahnlab.com">
+                    오픈소스 안랩닷컴 바로가기
+                  </a>
+                </div>
               </>
             ),
           },
@@ -605,7 +568,7 @@ export const Content90DataSource = {
           img: {
             className: "block-img",
             children:
-              "https://octocat-generator-assets.githubusercontent.com/my-octocat-1616226412080.png",
+              "https://blog.kakaocdn.net/dn/Qho1M/btq1haHs6ZG/7QNosE0MPki8lpkMbJk5l1/img.png",
           },
           icon: {
             className: "block-icon",
@@ -617,14 +580,38 @@ export const Content90DataSource = {
           time: { className: "block-time", children: "2020" },
           title: {
             className: "block-title",
-            children: "안랩 연구혁신팀 인턴 근무",
+            children: "펫노트랩 (現(주)보나곰) 스타트업 창업멤버 근무",
           },
           content: {
             className: "block-content",
             children: (
               <>
-                <div>2020.01 대웅그룹 idsTrust IT자산관리팀 인턴 근무</div>
-                <div>2020.02 컴퓨터정보공학 졸업 </div>
+                <div>
+                  📌 케이크지도 프로젝트 참여
+                  <br />
+                  🔗
+                  <a href="https://cakemap.kr/main">
+                    케이크 지도 사이트 바로가기
+                  </a>
+                </div>
+                <div>
+                  📌 펫노트 프로젝트 참여
+                  <br />
+                  🔗
+                  <a href="https://www.petnote-lab.com/">
+                    펫노트 사이트 바로가기
+                  </a>
+                  <br />
+                  🔗
+                  <a href="https://play.google.com/store/apps/details?id=com.petnoteapp&hl=ko">
+                    펫노트 플레이 스토어
+                  </a>
+                  <br />
+                  🔗
+                  <a href="https://apps.apple.com/kr/app/%EB%85%B8%ED%8A%B8%ED%8E%AB/id1516220432">
+                    펫노트 애플 스토어
+                  </a>
+                </div>
               </>
             ),
           },
@@ -640,7 +627,7 @@ export const Content90DataSource = {
           img: {
             className: "block-img",
             children:
-              "https://octocat-generator-assets.githubusercontent.com/my-octocat-1616226412080.png",
+              "https://media.istockphoto.com/vectors/winner-award-icon-vectorstar-awardstar-rewardmedal-icon-vector-id1169299007?k=6&m=1169299007&s=170667a&w=0&h=kVjEuGsBN8hsWmV3fN-S9rRYJ3SC8EuZi55IHHDI6HY=",
           },
           icon: {
             className: "block-icon",
@@ -649,17 +636,43 @@ export const Content90DataSource = {
           },
           name: { className: "block-name", children: "" },
           post: { className: "block-post", children: "" },
-          time: { className: "block-time", children: "2021~" },
+          time: { className: "block-time", children: "2016~" },
           title: {
             className: "block-title",
-            children: "대웅그룹 idsTrust IT자산관리팀 인턴",
+            children: "수상이력 및 기타활동",
           },
           content: {
             className: "block-content",
             children: (
               <>
-                <div>2020.01 대웅그룹 idsTrust IT자산관리팀 인턴 근무</div>
-                <div>2020.02 컴퓨터정보공학 졸업 </div>
+                <div>
+                  🏫 전공
+                  <br />
+                  컴퓨터정보공학 / 시각미디어디자인
+                </div>
+                <div>
+                  ⭐ 수상
+                  <br />
+                  ✔ 창업유망팀 300 경진대회 / U300 교육부 장관 인증서
+                  <br />
+                  ✔ 연세대학교 SURF 창업 페스티벌 / 멘토링상
+                  <br />
+                  ✔ 서울시 캠퍼스타운 조성사업 도시안 아이디어 경진대회 / 특별상
+                  <br />
+                  ✔ 제 10회 매일경제 스마트경제경영포럼 / 3등상
+                  <br />
+                  ✔ Blue Awards 상품문화 디자인 국제 공모전 / 우수상
+                  <br />✔ 서울상품문화디자인 국제 공모전 한국상품문화디자인학회
+                  / 회장상
+                </div>
+                🏃‍♀️ 대외활동
+                <br />
+                ✔ 예비창업패키지(4차 산업분야)선발
+                <br />
+                ✔ 삼성전자 대학생 모니터 서포터즈 3기
+                <br />
+                ✔ 핀테크 넥스트 리더 아카데미 1기
+                <br />✔ 경동시장 서포터즈 꼬집스 3기
               </>
             ),
           },

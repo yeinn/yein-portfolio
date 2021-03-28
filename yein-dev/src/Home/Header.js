@@ -18,12 +18,12 @@ class Header extends Component {
               </a>
             </li>
             <li class="menu-item">
-              <a href="#0" className="nav-btn">
+              <a href="#career" className="nav-btn">
                 Career
               </a>
             </li>
             <li class="menu-item">
-              <a href="#0" className="nav-btn">
+              <a href="#works" className="nav-btn">
                 Works
               </a>
             </li>

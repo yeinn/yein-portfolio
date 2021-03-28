@@ -1,12 +1,20 @@
 @content9: content9;
 @text-color: rgba(0, 0, 0, 0.85);
 @text-color2: #697b8c;
+
+.career-title {
+  font-family: "NEXON Lv1 Gothic OTF Bold";
+  display: flex;
+  justify-content: center;
+  font-size: 2.8rem !important;
+}
 .@{content9}-wrapper {
   padding-bottom: 64px;
   &.home-page-wrapper {
     overflow: initial;
   }
   .@{content9} {
+    font-family: "NEXON Lv1 Gothic OTF";
     min-height: 800px;
     padding: 64px 0 0;
   }
@@ -74,8 +82,10 @@
       min-height: 18px;
     }
     .block-title {
+      font-family: "NEXON Lv1 Gothic OTF Bold";
+      font-size: 1.2rem;
       margin: 8px 0 12px;
-      font-size: 14px;
+      // font-size: 14px;
       position: relative;
       min-height: 18px;
     }
@@ -85,9 +95,10 @@
       transform: translateX(~"calc(-50% + 1px)");
     }
     .block-content {
-      width: 300px;
-      color: #314659;
-      font-size: 12px;
+      width: 100%;
+      color: #404040;
+      line-height: 2;
+      font-size: 1rem;
       min-height: 18px;
     }
   }
@@ -136,9 +147,11 @@
     }
     .text-wrapper {
       .block-content {
-        display: none;
+        // display: none;
       }
       .block-title {
+        font-family: "NEXON Lv1 Gothic OTF Bold";
+        font-size: 1.2rem;
         font-size: 16px;
       }
     }
