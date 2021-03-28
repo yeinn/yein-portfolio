@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cd461404a790ae7ae33b",
-    "url": "/yein-portfolio/static/css/main.be0b57f4.chunk.css"
+    "revision": "4648aea931a2becf1cb0",
+    "url": "/yein-portfolio/static/css/main.c9329636.chunk.css"
   },
   {
-    "revision": "cd461404a790ae7ae33b",
-    "url": "/yein-portfolio/static/js/main.cd461404.chunk.js"
+    "revision": "4648aea931a2becf1cb0",
+    "url": "/yein-portfolio/static/js/main.4648aea9.chunk.js"
   },
   {
     "revision": "477f08332bb90ae6669c",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/yein-portfolio/static/media/skill.84ff6617.svg"
   },
   {
-    "revision": "f6cfcef8a2f2bde6be2b6f1b4b9f111f",
+    "revision": "0bd58484596070ca8a4b457f7d2e2ce9",
     "url": "/yein-portfolio/index.html"
   }
 ];
