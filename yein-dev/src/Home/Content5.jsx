@@ -3,13 +3,16 @@ import { Row, Col } from 'antd';
 import { TweenOneGroup } from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { getChildrenToRender } from './utils';
+import Work from './Work';
 
 class Content5 extends React.PureComponent {
   getChildrenToRender = (data) =>
     data.map((item) => {
       return (
         <Col key={item.name} {...item}>
+          
           <a {...item.children.wrapper}>
+            <Work/>
             <span {...item.children.img}>
               <img src={item.children.img.children} height="100%" alt="img" />
             </span>
@@ -37,6 +40,7 @@ class Content5 extends React.PureComponent {
             className={`content-template ${props.className}`}
             {...dataSource.OverPack}
           >
+            
             <TweenOneGroup
               component={Row}
               key="ul"
@@ -49,6 +53,7 @@ class Content5 extends React.PureComponent {
               leave={{ y: '+=30', opacity: 0, ease: 'easeInOutQuad' }}
               {...dataSource.block}
             >
+              
               {childrenToRender}
             </TweenOneGroup>
           </OverPack>
