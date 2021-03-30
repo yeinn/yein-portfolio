@@ -29,6 +29,7 @@ import {
 import "./less/antMotionStyle.less";
 import Main from "./Main";
 import Header from "./Header";
+import Work from "./Work";
 
 let isMobile;
 enquireScreen((b) => {
@@ -112,6 +113,7 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Work/>,
       <Contact0
         id="Contact0_0"
         key="Contact0_0"

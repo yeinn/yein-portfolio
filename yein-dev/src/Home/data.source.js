@@ -708,7 +708,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: "content5-block-content", target: "_blank" },
           img: {
-            children: "https://im2.ezgif.com/tmp/ezgif-2-6beceb89759f.gif",
+            children: "https://blog.kakaocdn.net/dn/0bVDh/btq1vid0ILt/7SZJBsrGcbLRK4sxILfaAK/img.png",
           },
           content: { children: "IT 장애 처리 접수 웹 시스템" },
         },
@@ -719,9 +719,9 @@ export const Content50DataSource = {
         md: 6,
         xs: 24,
         children: {
-          wrapper: { className: "content5-block-content", target: "_blank" },
+          wrapper: { className: "content5-block-content", target: "_blank", href:"https://smartwork.daewoong.co.kr/DWSWS/main"},
           img: {
-            children: "https://im2.ezgif.com/tmp/ezgif-2-6beceb89759f.gif",
+            children: "https://blog.kakaocdn.net/dn/bQEAvd/btq1nHNBHcw/Z2UmZPjQknWPdWKffkIKlK/img.png",
           },
           content: { children: "스마트워크 가이드 웹 시스템" },
         },
@@ -747,7 +747,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: "content5-block-content" },
           img: {
-            children: "https://im2.ezgif.com/tmp/ezgif-2-6beceb89759f.gif",
+            children: "https://blog.kakaocdn.net/dn/bQEAvd/btq1nHNBHcw/Z2UmZPjQknWPdWKffkIKlK/img.png",
           },
           content: { children: "간편예약 운영 관리 플랫폼" },
         },
@@ -758,7 +758,7 @@ export const Content50DataSource = {
         md: 6,
         xs: 24,
         children: {
-          wrapper: { className: "content5-block-content" },
+          wrapper: { className: "content5-block-content", target: "_blank", href:"https://www.petnote-lab.com/"},
           img: {
             children: "https://im2.ezgif.com/tmp/ezgif-2-6beceb89759f.gif",
           },
@@ -797,7 +797,7 @@ export const Content50DataSource = {
         md: 6,
         xs: 24,
         children: {
-          wrapper: { className: "content5-block-content" },
+          wrapper: { className: "content5-block-content"},
           img: {
             children: "https://im2.ezgif.com/tmp/ezgif-2-6beceb89759f.gif",
           },
